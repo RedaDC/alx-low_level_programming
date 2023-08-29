@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -30,7 +30,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 
 /**
- *  * main - check the code for Holberton School students.
+ *  * main - check the code
  *   *
  *    * Return: Always 0.
  *     */
@@ -43,3 +43,4 @@ int main(void)
 		        printf("-------------------------------------------------\n");
 			    simple_print_buffer(buffer, 98);    
 			        return (0);
+}
