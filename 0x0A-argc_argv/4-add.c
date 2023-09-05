@@ -24,15 +24,15 @@ int main(int argc, char *argv[])
 				{
 					printf("%s\n", c);
 					return (1);
-				 {
-					 find_letter++;
-				 }
-				 res = atoi(argv[i]);
-				 suma += res;
 				}
-				printf("%d\n", suma);
+				find_letter++;
 			}
-			else
-				printf("%d\n", 0);
-			return (0);
+			res = atoi(argv[i]);
+			suma += res;
+		}
+		printf("%d\n", suma);
+	}
+	else
+		printf("%d\n", 0);
+	return (0);
 }
